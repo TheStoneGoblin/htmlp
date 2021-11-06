@@ -1,0 +1,30 @@
+body{
+    background-color: #551418;
+    //551418
+    line-height: 10px;
+
+  }
+
+h1{
+    font-size: 60px;
+    color: #bb6b24;
+    background-color: #551418;
+    font-family: -apple-system;
+}
+p{
+  color: #bb6b24;
+  background-color: #551418;
+}
+button{
+  background-color: #bb6b24;
+  border: none;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #551418;
+}
+footer{
+  background-color: black;
+
+}
