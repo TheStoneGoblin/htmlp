@@ -27,19 +27,25 @@
   .left {
     grid-area: left;
     background-color: #8a4605;
+    font-size: 25px;
     text-align: center;
+    font-family: serif;
   }
 
   .middle {
     grid-area: middle;
     background-color: #965619;
+    font-size: 25px;
     text-align: center;
+    font-family: serif;
   }
 
   .right {
     grid-area: right;
     background-color: #8f4508;
+    font-size: 25px;
     text-align: center;
+    font-family: serif;
   }
 
   .footer {
