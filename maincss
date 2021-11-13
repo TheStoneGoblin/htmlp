@@ -1,30 +1,87 @@
-body{
+  .header {
+    grid-area: header;
     background-color: #551418;
-    //551418
-    line-height: 10px;
-
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-align: left;
+    color: #a35f22;
+    font-size: 30px;
+    line-height: 2px;
   }
 
-h1{
-    font-size: 60px;
-    color: #bb6b24;
-    background-color: #551418;
-    font-family: -apple-system;
-}
-p{
-  color: #bb6b24;
-  background-color: #551418;
-}
-button{
-  background-color: #bb6b24;
-  border: none;
-  padding-right: 5%;
-  padding-left: 5%;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: #551418;
-}
-footer{
-  background-color: black;
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'left left middle middle right right'
+      'footer footer footer footer footer footer';
+  }
 
+  .left,
+  .middle,
+  .right {
+    padding: 10px;
+    height: 400px;
+  }
+
+  .left {
+    grid-area: left;
+    background-color: #8a4605;
+    text-align: center;
+  }
+
+  .middle {
+    grid-area: middle;
+    background-color: #965619;
+    text-align: center;
+  }
+
+  .right {
+    grid-area: right;
+    background-color: #8f4508;
+    text-align: center;
+  }
+
+  .footer {
+    grid-area: footer;
+    background-color: #5b2809;
+    padding: 10px;
+    height: 300px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  @media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas:
+      'header header header header header header'
+      'left left left left left left'
+      'middle middle middle middle middle middle'
+      'right right right right right right'
+      'footer footer footer footer footer footer';
+  }
+}
+
+a:link {
+  color: #a35f22;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #a35f22;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a35f22;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #a35f22;
+  background-color: transparent;
+  text-decoration: underline;
 }
