@@ -1,0 +1,28 @@
+body{
+	font-family: -apple-system;
+	text-align: center;
+	background-color:#551418;
+	color: #bb6b24;
+}
+hr{
+	color:#bb6b24;
+}
+h2{
+	font-family: -apple-system;
+	text-align: center;
+	background-color:#551418;
+	color: #bb6b24;
+}
+p1{
+	font-family: -apple-system;
+	text-align: center;
+	background-color:#551418;
+	color: #bb6b24;
+}
+button{
+	color:#bb6b24;
+	background-color:#4B1F0E;
+	border-color:#4B1F0E;
+	font-size: 25px;
+	font-family: -apple-system;
+}
