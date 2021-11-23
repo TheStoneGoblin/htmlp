@@ -1,0 +1,63 @@
+body{
+	font-family: -apple-system;
+	background-color:#551418;
+	color: #bb6b24;
+}
+header{
+	font-size: 50px;
+	text-align: center;
+	font-family: -apple-system;
+}
+hr{
+	color:#bb6b24;
+}
+.TopPage{
+	vertical-align: middle;
+	font-size:50px;
+	padding-right:100px;
+	
+}
+h1{
+	font-family: -apple-system;
+	background-color:#551418;
+	color: #bb6b24;
+	text-align:center;
+	font-size: 50px;
+}
+p{
+	font-family: -apple-system;
+	text-align: center;
+	background-color:#551418;
+	color: #bb6b24
+}
+h2{
+	font-family: -apple-system;
+	text-align: center;
+	background-color:#551418;
+	color: #bb6b24;
+}
+p{
+	font-family: -apple-system;
+	text-align: center;
+	background-color:#551418;
+	color: #bb6b24;
+}
+div{
+	text-align:center ;
+}
+button{
+	color:#bb6b24;
+	background-color:#4B1F0E;
+	border-color:#4B1F0E;
+	
+	font-size: 25px;
+	font-family: -apple-system;
+}
+footer{
+	text-align:to left;
+	color: #bb6b24;
+	border-color:#4B1F0E;
+	font-size: 15px;
+	font-family: -apple-system;
+	
+}
