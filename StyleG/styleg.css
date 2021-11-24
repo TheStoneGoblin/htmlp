@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #FFAFF3;
+    font-family: 'Times New Roman', Helvetica, sans-serif;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+.header {
+    background-image: url("./CupClinking.jpg");
+    padding: 15px; 
+    text-align: center;
+    color: brown;
+    text-shadow: 1px 1px black;
+}
+
+.footer {
+ background-image: url("./CupClinking.jpg");
+    padding: 15px;
+    text-align: center;
+    color: brown;
+    text-shadow: 1px 1px black;
+}
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas: auto auto auto;
+  padding: 20px
+}
+
+
+
+    
