@@ -19,7 +19,7 @@ body {
     background-image: url("./coffee.jpg");
     padding: 20px;
     text-align: center;
-    color: rgba(255, 255, 255, 0.829);
+    color: #a35f22;
     text-shadow: 1px 1px black;
 }
 
@@ -31,7 +31,7 @@ body {
 .topnav a {
     float: left;
     display: block;
-    color: aliceblue;
+    color: #a35f22;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -45,6 +45,7 @@ body {
     float: left;
     width: 50%;
     padding: 15px;
+    color: #a35f22;
 }
 
 .row:after {
