@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    background-color: #FFAFF3;
+    background-color: #551418;
     font-family: 'Times New Roman', Helvetica, sans-serif;
 }
 
@@ -17,9 +17,9 @@ body {
 
 .header {
     background-image: url("./CupClinking.jpg");
-    padding: 15px; 
+    padding: 15px;
     text-align: center;
-    color: brown;
+    color: #a35f22;
     text-shadow: 1px 1px black;
 }
 
@@ -31,15 +31,32 @@ body {
     text-shadow: 1px 1px black;
 }
 
-
-
-
 .grid-container {
   display: grid;
   grid-template-areas: auto auto auto;
   padding: 20px
 }
 
+a:link {
+  color: #a35f22;
+  background-color: transparent;
+  text-decoration: none;
+}
 
+a:visited {
+  color: #a35f22;
+  background-color: transparent;
+  text-decoration: none;
+}
 
-    
+a:hover {
+  color: #a35f22;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #a35f22;
+  background-color: transparent;
+  text-decoration: underline;
+}
